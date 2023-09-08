@@ -1,5 +1,17 @@
 import Image from 'next/image'
 
+<script type="text/jsx">
+
+const app = document.getElementById("app")
+
+function header() {
+   return (<h1>Develop. Preview. Ship. 🚀</h1>)
+ }
+
+
+ ReactDOM.render(<Header />, app)
+</script>
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
